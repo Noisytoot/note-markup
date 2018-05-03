@@ -1,0 +1,9 @@
+<!ELEMENT notes (note)>
+<!ELEMENT note (to,from,heading,body)>
+<!ATTLIST note name CDATA "Note">
+<!ATTLIST note date CDATA #IMPLIED>
+<!ATTLIST note time CDATA #IMPLIED>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
