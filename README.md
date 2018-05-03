@@ -12,4 +12,4 @@ On the top of the page there must be `<?xml version="1.0"?>` and below that the 
 One file may contain multiple notes inside the root `<notes>` tag.
 Below the `notes` tag there is the `<note>` tag for a single note.
 The `<note>` tag may have the attribute `name` in which the name of the note is put, `date` in which the date is put and `time` in which the time is put.
-Below the `note` tag there is the `to` tag for who the note is to, the `from` tag in which who the tag is from is put and the `body` tag in which the note body is put.
+Below the `note` tag there is the `to` tag for who the note is to, the `from` tag in which who the note is from is put and the `body` tag in which the note body is put.
