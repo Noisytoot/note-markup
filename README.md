@@ -2,7 +2,7 @@
 A repository for Note Markup
 ## Instructions:
 1. Create a folder for the files;
-2. Download `note.dtd` for the DTD version or `note.xsd` for the XSD version
+2. Download `note.dtd` for the DTD version or `note.xsd` for the XSD version;
 3. Put the the file in the folder you made for it;
 4. Create a XML file in the folder;
 5. Put `<?xml version="1.0"?>` at the top of the file;
