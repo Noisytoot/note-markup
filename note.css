@@ -1,0 +1,165 @@
+@import url('RobotoMono-Regular.ttf');
+
+note {
+    display: block;
+}
+
+body {
+    color: black;
+    display: block;
+    font-style: normal;
+}
+
+heading {
+    color: blue;
+    font-size: 25px;
+    display: block;
+}
+
+to {
+    color: red;
+    display: block;
+}
+
+from {
+    color: gray;
+    display: block;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+green {
+    color: green;
+}
+
+blue {
+    color: blue;
+}
+
+red {
+    color: red;
+}
+
+yellow {
+    color: yellow;
+}
+
+highlight {
+    background-color: yellow;
+}
+
+orange {
+    color: orange;
+}
+
+gray {
+    color: gray;
+}
+
+black {
+    color: black;
+}
+
+br {
+  display: table;
+}
+
+highlight-orange {
+    background-color: orange;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+o {
+    text-decoration: overline;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+u {
+    text-decoration: underline;
+}
+
+code {
+    background-color: #d6d6d6;
+    font-family: 'Roboto Mono', monospace;
+}
+
+mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+ol{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+li {
+    display: list-item;
+}
+
+center-h {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

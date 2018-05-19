@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "note.xsd">
+<?xml-stylesheet href="note.css" type="text/css"?>
+<notes xmlns:html="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+    <center-h>
+        <html:h1><red><mono>Note Markup (based on XML)</mono></red></html:h1>
+    </center-h>
+    <hr/>
+    <html:h2><red>Example Note</red></html:h2>
+    <hr/>
+    <note name="Example Note" date="Date" time="Time">
+        <to>To</to>
+        <from>From</from>
+        <heading>Heading</heading>
+        <body>Body</body>
+    </note>
+    <hr/>
+    <note name="Text Colours">
+        <to>To Ron</to>
+        <from>From Ron</from>
+        <heading>Text Colours</heading>
+        <body>
+            This is the body, this text is <green>green</green>, this is <blue>blue</blue>, this is <orange>orange</orange>, this is <red>red</red>, this is <yellow>yellow</yellow>, this is <highlight>highlighted</highlight>, this is <gray>gray</gray>, this is <black>black</black> which is the default text colour and this is <highlight-orange>orange highlighted</highlight-orange>.
+        </body>
+    </note>
+    <hr/>
+    <note name="Line Breaks">
+        <to>To Ron</to>
+        <from>From Ron</from>
+        <heading>Line Breaks</heading>
+        <body>
+            There
+            is
+            no
+            line
+            break
+            here.
+            <br/>
+            but<br/>
+            there<br/>
+            is<br/>
+            a line break<br/>
+            here<br/>
+        </body>
+    </note>
+    <hr/>
+    <note name="Text Styling">
+        <to>To Ron</to>
+        <from>From Ron</from>
+        <heading>Text Styling</heading>
+        <body>
+            This text is <i>italic</i>, this text is <b>bold</b>, this is <o>overlined</o>, this has a <s>strikethrough</s> going through it, this is <u>underlined</u>, this is in the <code>code</code> element, this is the <mono>mono</mono> element which is in <mono>Roboto Mono</mono> and this text <blink>blinks</blink><!--this is a comment-->.
+            <center-h>This text is centred horizontally!!!</center-h>
+        </body>
+    </note>
+    <hr/>
+    <note name="XML Namespaces">
+        <to>To Ron</to>
+        <from>From Ron</from>
+        <heading>XML Namespaces</heading>
+        <body>
+            You can put XHTML and SVG elements in XML with the namespaces!<br/>
+            <html:a href="https://google.com">Google</html:a><br/>
+            <svg:svg width="300px" height="200px">
+                <svg:circle cx="150" cy="100" r="50" fill="#ff0000"/>
+            </svg:svg>
+        </body>
+    </note>
+    <hr/>
+    <note name="Lists">
+        <to>To Ron</to>
+        <from>From Ron</from>
+        <heading>Lists</heading>
+        <body>
+            <red><b>Unordered List:</b></red>
+            <ul>
+                <li>Unordered List item (li)</li>
+            </ul>
+            <red><b>Ordered List:</b></red>
+            <ol>
+                <li>Ordered List item (li)</li>
+            </ol>
+        </body>
+    </note>
+</notes>
