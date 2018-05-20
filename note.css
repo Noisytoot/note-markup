@@ -1,28 +1,18 @@
+/*
 @import url('RobotoMono-Regular.ttf');
-
-note {
-    display: block;
+*/
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url('RobotoMono-Regular.ttf') format('truetype');
 }
 
-body {
-    color: black;
+style {
     display: block;
-    font-style: normal;
 }
 
 heading {
     color: blue;
     font-size: 25px;
-    display: block;
-}
-
-to {
-    color: red;
-    display: block;
-}
-
-from {
-    color: gray;
     display: block;
 }
 
@@ -72,8 +62,28 @@ br {
   display: table;
 }
 
-highlight-orange {
+highlight[colour~="orange"] {
     background-color: orange;
+}
+
+highlight[colour~="red"] {
+    background-color: red;
+}
+
+highlight[colour~="yellow"] {
+    background-color: yellow;
+}
+
+highlight[colour~="blue"] {
+    background-color: blue;
+}
+
+highlight[colour~="green"] {
+    background-color: green;
+}
+
+highlight[colour~="purple"] {
+    background-color: purple;
 }
 
 i {
@@ -142,7 +152,7 @@ ul {
     padding-left: 40px;
 }
 
-ol{
+ol {
     display: block;
     list-style-type: decimal;
     margin-top: 1em;
@@ -162,4 +172,17 @@ center-h {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+invert {
+    color: white;
+    background-color: black;
+}
+
+block {
+    display: block;
+}
+
+inline {
+    display: inline;
 }
