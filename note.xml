@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "note.xsd">
 <?xml-stylesheet href="note.css" type="text/css"?>
-<notes xmlns:html="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+<notes xmlns:html="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:style="../Style/schema.xml">
     <center-h>
         <html:h1><red><mono>Note Markup (based on XML)</mono></red></html:h1>
     </center-h>
@@ -20,7 +20,7 @@
         <from>From Ron</from>
         <heading>Text Colours</heading>
         <body>
-            This is the body, this text is <green>green</green>, this is <blue>blue</blue>, this is <orange>orange</orange>, this is <red>red</red>, this is <yellow>yellow</yellow>, this is <highlight>highlighted</highlight>, this is <gray>gray</gray>, this is <black>black</black> which is the default text colour and this is <highlight-orange>orange highlighted</highlight-orange>.
+            This is the body, this text is <green>green</green>, this is <blue>blue</blue>, this is <orange>orange</orange>, this is <red>red</red>, this is <yellow>yellow</yellow>, this is <highlight>highlighted</highlight>, this is <gray>gray</gray>, this is <black>black</black> which is the default text colour, this is <highlight colour="orange">orange highlighted</highlight>, this is <highlight colour="yellow">yellow highlighted</highlight>, this is <highlight colour="red">red highlighted</highlight>, this is <highlight colour="green">green highlighted</highlight>, this is <highlight colour="purple">purple highlighted</highlight> and this is <highlight colour="blue">blue highlighted</highlight>.
         </body>
     </note>
     <hr/>
